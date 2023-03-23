@@ -1,0 +1,41 @@
+[
+  {
+    "title": "CyberSec TA",
+    "image": "../images/img.png",
+    "company": "eDX",
+    "responsibilities": {
+      "a": "Responsibility 1",
+      "b": "Responsibility 2",
+      "c": "Responsibility 3",
+      "d": "Responsibility 4",
+      "e": "Responsibility 5"
+    },
+    "date": "1"
+  },
+  {
+    "title": "Lead Technician",
+    "image": "../images/img.png",
+    "company": "Tesselex Solutions",
+    "responsibilities": {
+      "a": "Responsibility 1",
+      "b": "Responsibility 2",
+      "c": "Responsibility 3",
+      "d": "Responsibility 4",
+      "e": "Responsibility 5"
+    },
+    "date": "3"
+  },
+  {
+    "title": "Technical Associate",
+    "image": "../images/img.png",
+    "company": "Staples",
+    "responsibilities": {
+      "a": "Responsibility 1",
+      "b": "Responsibility 2",
+      "c": "Responsibility 3",
+      "d": "",
+      "e": ""
+    },
+    "years": "2"
+  }
+]

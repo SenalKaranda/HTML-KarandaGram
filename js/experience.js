@@ -1,8 +1,7 @@
-// Load the posts from the JSON files
 let loadedPosts = 0;
 
 function loadPosts() {
-  fetch("posts.json")
+  fetch("../data/experiences.json")
     .then((response) => response.json())
     .then((posts) => {
       const container = document.querySelector(".post-container");
@@ -15,62 +14,49 @@ function loadPosts() {
     });
 }
 
-
-// Create a post element from a post object
 function createPostElement(post) {
   const postElem = document.createElement('div');
   postElem.classList.add('post');
 
   const writerElem = document.createElement('div');
-  writerElem.classList.add('writer')
-  writerElem.innerText = post.writer;
+  writerElem.classList.add('writer');
+  writerElem.innerText = "Senal Karanda";
   postElem.appendChild(writerElem);
 
   const imageElem = document.createElement('img');
-  imageElem.classList.add('image')
-  imageElem.src = post.image;
+  imageElem.classList.add('image');
+  imageElem.src = post.image; 
   postElem.appendChild(imageElem);
 
-  const captionElem = document.createElement('div');
-  captionElem.classList.add('caption');
-  captionElem.innerText = post.caption;
-  postElem.appendChild(captionElem);
+  const titleElem = document.createElement('div');
+  titleElem.classList.add('caption');
+  titleElem.innerText = post.title;
+  postElem.appendChild(titleElem);
+  
+  const companyElem = document.createElement('div');
+  companyElem.classList.add('caption');
+  companyElem.innerText = post.company;
+  postElem.appendChild(companyElem);
+  
+  const responsibilitiesElem = document.createElement('ul');
+  responsibilitiesElem.classList.add('responsibilities');
+  const responsibilities = post.responsibilities;
+  for (let key in responsibilities) {
+    if (responsibilities[key]) {
+      const bulletElem = document.createElement('li');
+      bulletElem.innerText = responsibilities[key];
+      responsibilitiesElem.appendChild(bulletElem);
+    }
+  }
+  postElem.appendChild(responsibilitiesElem);
 
-  const contentElem = document.createElement('div');
-  contentElem.classList.add('content');
-  contentElem.innerText = post.content;
-  postElem.appendChild(contentElem);
 
   const dateElem = document.createElement('div');
   dateElem.classList.add('date');
-  dateElem.innerText = formatPostDate(post.date);
+  dateElem.innerText = post.date + ' years';
   postElem.appendChild(dateElem);
 
   return postElem;
-}
-
-// Format the post date to display as "x days/weeks/months/years ago"
-function formatPostDate(dateStr) {
-  const postDate = new Date(dateStr);
-  const now = new Date();
-  const diff = now - postDate;
-
-  if (diff < 1000 * 60 * 60 * 24) {
-    const hours = Math.floor(diff / (1000 * 60 * 60));
-    return hours + ' hours ago';
-  } else if (diff < 1000 * 60 * 60 * 24 * 7) {
-    const days = Math.floor(diff / (1000 * 60 * 60 * 24));
-    return days + ' days ago';
-  } else if (diff < 1000 * 60 * 60 * 24 * 30) {
-    const weeks = Math.floor(diff / (1000 * 60 * 60 * 24 * 7));
-    return weeks + ' weeks ago';
-  } else if (diff < 1000 * 60 * 60 * 24 * 365) {
-    const months = Math.floor(diff / (1000 * 60 * 60 * 24 * 30));
-    return months + ' months ago';
-  } else {
-    const years = Math.floor(diff / (1000 * 60 * 60 * 24 * 365));
-    return years + ' years ago';
-  }
 }
 
 function checkPageHeight() {

@@ -1,0 +1,74 @@
+[
+  {
+    "name": "Python",
+    "rating": "85"
+  },
+  {
+    "name": "C++",
+    "rating": "75"
+  },
+  {
+    "name": "HTML/CSS",
+    "rating": "75"
+  },
+  {
+    "name": "Java",
+    "rating": "70"
+  },
+  {
+    "name": "JS",
+    "rating": "50"
+  },
+  {
+    "name": "SQL",
+    "rating": "60"
+  },
+  {
+    "name": "Linux",
+    "rating": "70"
+  },
+  {
+    "name": "Windows",
+    "rating": "75"
+  },
+  {
+    "name": "Data Analysis",
+    "rating": "65"
+  },
+  {
+    "name": "Documentation",
+    "rating": "70"
+  },
+  {
+    "name": "Gameplay Engineering",
+    "rating": "80"
+  },
+  {
+    "name": "Networking",
+    "rating": "65"
+  },
+  {
+    "name": "Penetration Testing",
+    "rating": "65"
+  },
+  {
+    "name": "Source Control",
+    "rating": "70"
+  },
+  {
+    "name": "Systems Deployment",
+    "rating": "65"
+  },
+  {
+    "name": "Teaching",
+    "rating": "85"
+  },
+  {
+    "name": "Technical Writing",
+    "rating": "75"
+  },
+  {
+    "name": "Vector Math",
+    "rating": "65"
+  }
+]
