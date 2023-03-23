@@ -1,0 +1,132 @@
+header {
+  background-color: #2e2e2e;
+  color: #fff;
+  width: 100%;
+  min-height: 10%;
+  max-height: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+}
+
+.title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 3%;
+}
+
+.title img {
+  max-height: 150px;
+}
+
+#sidebar {
+  position: fixed;
+  top: 25%;
+  left: 0;
+  width: 200px;
+  min-height: 500px;
+  max-height: 50%;
+  background-color: #676767;
+  overflow-y: auto;
+  border-top: 1ch solid #2e2e2e;
+  border-right: 1ch solid #2e2e2e;
+  border-bottom: 1ch solid #2e2e2e;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.navigation {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.navigation li {
+  margin: 0;
+  padding: 0;
+}
+
+.navigation a {
+  display: block;
+  padding: 10px;
+  color: #fff;
+  text-decoration: none;
+  font-size: 1.5em;
+}
+
+.navigation a:hover {
+  background-color: #333;
+}
+
+#sidebar h3 {
+  margin: 0;
+  padding: 10px;
+  text-align: center;
+  align-self: flex-end;
+  color: #fff;
+}
+
+body {
+  background-color: #f1f1f1;
+  margin: 0;
+  padding: 0;
+}
+
+/* Style the post container */
+#posts {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10px;
+  margin-left: 0;
+  padding-left: 0;
+}
+
+/* Style each post */
+.post {
+  background-color: #fff;
+  border: 1px solid #ccc;
+  margin: 25px;
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+}
+
+.post .writer {
+  font-weight: bold;
+  margin-top: 5px;
+  margin-left: 5px;
+  margin-bottom: 5px;
+}
+
+.post img {
+  border: 1px solid #3e3e3e;
+  width: 100%;
+  height: auto;
+}
+
+.post .caption {
+  font-weight: bold;
+  margin-top: 5px;
+  margin-left: 5px;
+  text-align: center;
+}
+
+.post .content {
+  margin-top: 10px;
+  margin-left: 5px;
+}
+
+.post .date {
+  margin-top: 10px;
+  color: #999;
+  font-size: 12px;
+  margin-left: 5px;
+  margin-bottom: 5px;
+}

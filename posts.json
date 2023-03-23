@@ -1,0 +1,37 @@
+[
+  {
+    "writer": "Senal Karanda",
+    "image": "images/img.png",
+    "caption": "Caption",
+    "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "date": "2023-03-10T15:45:00Z"
+  },
+  {
+    "writer": "Senal Karanda",
+    "image": "images/img.png",
+    "caption": "Caption",
+    "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "date": "2023-03-10T15:45:00Z"
+  },
+  {
+    "writer": "Senal Karanda",
+    "image": "images/img.png",
+    "caption": "Caption",
+    "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "date": "2023-03-10T15:45:00Z"
+  },
+  {
+    "writer": "Senal Karanda",
+    "image": "images/img2.png",
+    "caption": "Started Online Classes",
+    "content": "I started 3 online college class through the University of Helsinki! I'm looking forward to the opportunity to earn some certificates and possibly credits.",
+    "date": "2023-03-10T15:45:00Z"
+  },
+  {
+    "writer": "Senal Karanda",
+    "image": "images/img1.png",
+    "caption": "New Job: CyberSecurity TA",
+    "content": "I got a new job! I'm excited to announce that I'm the newest TA for eDX's CyberSec Bootcamps.",
+    "date": "2023-02-20T08:00:00Z"
+  }
+]
