@@ -1,3 +1,5 @@
+/*----------HEADER----------*/
+
 header {
   background-color: #2e2e2e;
   color: #fff;
@@ -10,6 +12,22 @@ header {
   margin: 0;
   padding: 0;
 }
+
+.title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 3%;
+  font-family: 'Delicious Handrawn', sans-serif;
+  font-size: 1.5em;
+}
+
+.title img {
+  max-height: 150px;
+}
+
+/*----------SIDEBAR----------*/
 
 #sidebar {
   position: fixed;
@@ -24,25 +42,40 @@ header {
   border-bottom: 1ch solid #2e2e2e;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
   align-items: flex-end;
 }
 
-nav {
-	width: 100%;
+/*----------NAV----------*/
+
+.nav-header {
+  margin-top: 0;
+  margin-bottom: auto;
+  padding: 10px;
+  text-align: center;
+  color: #fff;
+  font-family: 'Bebas Neue', sans-serif;
 }
 
 .navigation {
-  list-style: none;
-  margin: 0;
-  padding: 0;
+  height: 100%;
   width: 100%;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: auto;
+  font-family: 'Righteous', sans-serif;
+}
+
+.navigation ul {
+	padding-left: 0;
 }
 
 .navigation li {
   margin: 0;
   padding: 0;
   width: 100%;
+  list-style: none;
 }
 
 .navigation a {
@@ -59,25 +92,13 @@ nav {
   background-color: #333;
 }
 
-#sidebar h3 {
-  margin: 0;
-  padding: 10px;
-  text-align: center;
-  align-self: flex-end;
-  color: #fff;
+.nav-divider {
+	width:100%;
+	text-align:right;
+	margin-right:0
 }
 
-.title {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  margin-top: 3%;
-}
-
-.title img {
-  max-height: 150px;
-}
+/*----------BODY----------*/
 
 body {
   background-color: #f1f1f1;
@@ -85,7 +106,7 @@ body {
   padding: 0;
 }
 
-/* Style the post container */
+/* Post Container */
 #posts {
   display: flex;
   flex-direction: column;
@@ -96,12 +117,11 @@ body {
   padding-left: 0;
 }
 
-/* Style each post */
+/* Post */
 .post {
   background-color: #fff;
   border: 1px solid #ccc;
   margin: 25px;
-  /*min-width: 300px;*/
   width: 30%;
   max-width: 500px;
   display: flex;
@@ -155,7 +175,7 @@ body {
   padding-left: 20px;
 }
 
-/* Style the progress bar container */
+/* Progress Bar Container */
 #progress-container {
   display: flex;
   flex-direction: column;
@@ -178,7 +198,6 @@ body {
   width: 50%;
 }
 
-/* Remove the default animations */
 progress {
   -webkit-appearance: none;
   appearance: none;
@@ -198,6 +217,8 @@ progress::-moz-progress-bar {
   background-color: #4FB286;
   border-radius: 0px;
 }
+
+/*----------CONTACT----------*/
 
 .social-icons {
   display: flex;
@@ -236,6 +257,8 @@ progress::-moz-progress-bar {
   margin-right: 15px;
   width: 25%;
 }
+
+/*----------LINKS----------*/
 
 .link-btn {
   background-color: #1a1a1a;

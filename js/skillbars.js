@@ -16,6 +16,7 @@ function loadSkills() {
       progressBar.setAttribute("max", "100");
       nameElement.classList.add("skill-text");
       nameElement.textContent = skill.name;
+	  nameElement.style.fontFamily = 'Righteous, sans-serif'
 
       container.appendChild(nameElement);
       container.appendChild(progressBar);
