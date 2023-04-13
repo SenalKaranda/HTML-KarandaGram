@@ -1,15 +1,41 @@
 [
   {
-    "title": "CyberPatriot Award",
-    "image": "../images/img.png",
+    "title": "Certificate of Achievement '13",
+    "image": "../images/cyber-patriot.png",
     "company": "Air Force Association",
     "points": {
-      "a": "Point 1",
-      "b": "Point 2",
-      "c": "Point 3",
-      "d": "Point 4",
-      "e": "Point 5"
+      "a": "Competed in the CyberPatriot competition with a team of students.",
+      "b": "",
+      "c": "",
+      "d": "",
+      "e": ""
     },
-    "date": "2023"
+    "date": "2013"
+  },
+  {
+    "title": "Certificate of Achievement '14",
+    "image": "../images/cyber-patriot.png",
+    "company": "Air Force Association",
+    "points": {
+      "a": "Competed in the CyberPatriot competition with a team of students.",
+      "b": "",
+      "c": "",
+      "d": "",
+      "e": ""
+    },
+    "date": "2014"
+  },
+  {
+    "title": "Java Programming Award",
+    "image": "../images/vcu.png",
+    "company": "Virginia Commonwealth University",
+    "points": {
+      "a": "Joined a team of programmers with my classmates, and competed in a series of challenges meant to test our logic, problem solving, and teamwork skills.",
+      "b": "",
+      "c": "",
+      "d": "",
+      "e": ""
+    },
+    "date": "2014"
   }
 ]

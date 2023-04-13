@@ -1,14 +1,53 @@
 [
   {
-    "title": "Terrain Generator",
-    "image": "../images/img.png",
+    "title": "Falling Cube",
+    "image": "../images/falling-cube.png",
     "platform": "Unreal Engine C++",
     "points": {
-      "a": "Point 1",
-      "b": "Point 2",
-      "c": "Point 3",
-      "d": "Point 4",
-      "e": "Point 5"
+      "a": "Procedural Generation - Logic Puzzle",
+      "b": "A logic puzzle where a cube spawns on a random path of tiles. The cube must reach the end and also step on every tile along the way. The maps are generated using C++ and iterations on a grid.",
+      "c": "",
+      "d": "",
+      "e": ""
+    },
+    "date": "Apr 2023"
+  },
+  {
+    "title": "Tile World",
+    "image": "../images/tile-world.png",
+    "platform": "Unreal Engine C++",
+    "points": {
+      "a": "Procedural Generation - Biomes",
+      "b": "A project for procedurally generated biomes using C++. I use 3D tiles of different material: dirt, grass, and stone. Water may be added later for ocean generation.",
+      "c": "",
+      "d": "",
+      "e": ""
+    },
+    "date": "Mar 2023"
+  },
+  {
+    "title": "Terrain Generator",
+    "image": "../images/procedural-terrain.png",
+    "platform": "Unreal Engine C++",
+    "points": {
+      "a": "Procedural Generation - Perlin Noise",
+      "b": "A project in which I generate random maps using perlin noise and the diamond square algorithm in Unreal Engine C++.",
+      "c": "",
+      "d": "",
+      "e": ""
+    },
+    "date": "Feb 2023"
+  },
+  {
+    "title": "Endless Runner",
+    "image": "../images/endless-runner.png",
+    "platform": "Unreal Engine C++",
+    "points": {
+      "a": "Procedural Generation - Prefabs",
+      "b": "A survival runner in which the player is running horizontally through randomly placed, prefabricated map parts to escape a wall of spikes. Uses C++ and prefabs to create level pieces as the player progresses.",
+      "c": "",
+      "d": "",
+      "e": ""
     },
     "date": "Jan 2023"
   }

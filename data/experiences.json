@@ -1,41 +1,41 @@
 [
   {
     "title": "CyberSec TA",
-    "image": "../images/img.png",
+    "image": "../images/img1.png",
     "company": "eDX",
     "responsibilities": {
-      "a": "Responsibility 1",
-      "b": "Responsibility 2",
-      "c": "Responsibility 3",
-      "d": "Responsibility 4",
-      "e": "Responsibility 5"
+      "a": "Facilitated engaging Cyber Security boot camp sessions for over 80 UConn residents, resulting in a 95% satisfaction rate among participants and helping them earn course credits.",
+      "b": "Applied expertise in Cyber Security principles to support an instructor in teaching a cohort of 40 students, resulting in a 10% increase in test scores and better preparing students for real-world situations in cyber-space.",
+      "c": "Edited lesson plans to optimize student learning and comprehension in a fast-paced, time constrained environment, resulting in improved test scores and greater student satisfaction.",
+      "d": "Maintained and updated a repository of classroom files using Github and Gitlab, ensuring students had access to the most up-to-date materials and contributing to a more streamlined learning experience.",
+      "e": "Hosted weekly office hours for over 40 students to provide support and practice effective communication skills in a professional manner, resulting in a 50% decrease confusion and anxiety related to coursework and fostering a more supportive and collaborative learning environment."
     },
-    "date": "1"
+    "years": "1"
   },
   {
     "title": "Lead Technician",
-    "image": "../images/img.png",
+    "image": "../images/tesselex.png",
     "company": "Tesselex Solutions",
     "responsibilities": {
-      "a": "Responsibility 1",
-      "b": "Responsibility 2",
-      "c": "Responsibility 3",
-      "d": "Responsibility 4",
-      "e": "Responsibility 5"
+      "a": "Designed and created hybrid HTML/CSS & WordPress websites for 5 clients, programming various types of pages to serve different purposes, resulting in increased web traffic and enhanced user experience.",
+      "b": "Acquired domain names, hosted, and maintained the websites for 3 clients, ensuring optimal website performance and minimizing downtime.",
+      "c": "Installed, configured, and managed client hardware and network infrastructure, including setting up PCs, modems, and routers, resulting in efficient and secure network operations.",
+      "d": "Installed and configured essential software, such as point of sale systems, tax software, and office & productivity software, improving client workflow and productivity.",
+      "e": "Conducted thorough analysis of existing network infrastructure for security flaws reconciling any issues and deploying secure network configurations for clients to reduce downtime and prevent security breaches."
     },
-    "date": "3"
+    "years": "3"
   },
   {
     "title": "Technical Associate",
-    "image": "../images/img.png",
+    "image": "../images/staples.png",
     "company": "Staples",
     "responsibilities": {
-      "a": "Responsibility 1",
-      "b": "Responsibility 2",
-      "c": "Responsibility 3",
-      "d": "",
-      "e": ""
+      "a": "Maintained a high level of customer satisfaction while optimizing sales numbers and retention rates, resulting in increased customer loyalty and store revenue.",
+      "b": "Utilized expert knowledge of Windows and Linux operating systems to diagnose and eliminate various types of malware, such as trojan horses, ransomware, and rootkits, and implemented group policies to maximize system security.",
+      "c": "Effectively handled various hardware issues, including dead batteries, hard drive failure, and replacement of other malfunctioning internal components, resulting in timely and efficient repairs and improved customer satisfaction.",
+      "d": "Generated and maintained detailed documentation of repair processes, ensuring compliance with contract terms and facilitating effective communication among team members and clients.",
+      "e": "Managed live documentation and reporting of data related to issues and repairs, providing valuable insights for technicians and enabling proactive problem-solving."
     },
-    "years": "2"
+    "years": "1.5"
   }
 ]

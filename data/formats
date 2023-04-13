@@ -1,0 +1,41 @@
+{
+    "title": "Role",
+    "image": "../images/img.png",
+    "company": "Company",
+    "responsibilities": {
+      "a": "",
+      "b": "",
+      "c": "",
+      "d": "",
+      "e": ""
+    },
+    "years": "0"
+}
+
+{
+    "title": "Award",
+    "image": "../images/img.png",
+    "company": "Company",
+    "points": {
+      "a": "",
+      "b": "",
+      "c": "",
+      "d": "",
+      "e": ""
+    },
+    "date": "2013"
+}
+
+{
+    "title": "Project",
+    "image": "../images/img.png",
+    "platform": "Platform",
+    "points": {
+      "a": "",
+      "b": "",
+      "c": "",
+      "d": "",
+      "e": ""
+    },
+    "date": "Jan 2023"
+}
