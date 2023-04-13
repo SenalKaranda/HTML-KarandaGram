@@ -4,14 +4,14 @@
     "image": "images/falling-cube.png",
     "caption": "Project: Falling Cube",
     "content": "A logic puzzle where a cube spawns on a random path of tiles. The cube must reach the end and also step on every tile along the way. The maps are generated using C++ and iterations on a grid.",
-    "date": "2023-03-10T09:53:00Z"
+    "date": "2023-04-12T09:53:00Z"
   },
   {
     "writer": "Senal Karanda",
     "image": "images/img2.png",
     "caption": "Started Online Classes",
     "content": "I started 3 online college class through the University of Helsinki! I'm looking forward to the opportunity to earn some certificates and possibly credits.",
-    "date": "2023-03-10T15:39:00Z"
+    "date": "2023-03-12T15:39:00Z"
   },
   {
     "writer": "Senal Karanda",
@@ -32,6 +32,6 @@
     "image": "images/procedural-terrain.png",
     "caption": "Project: Procedural Terrain",
     "content": "A project in which I generate random maps using perlin noise and the diamond square algorithm in Unreal Engine C++.",
-    "date": "2023-03-10T20:00:00Z"
+    "date": "2023-02-10T20:00:00Z"
   }
 ]
